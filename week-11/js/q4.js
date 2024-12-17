@@ -30,25 +30,17 @@ let myFavGames = {
 let objectLength = Object.keys(myFavGames).length;
 
 for (let i = 0; i < objectLength; i++) {
-    // let game = Object.keys(myFavGames)[i];
-    console.log(`The Game Name Is ${Object.keys(myFavGames)[i]}`);
-    console.log(
-        `The Publisher Is ${myFavGames[Object.keys(myFavGames)[i]].publisher}`
-    );
-    console.log(`The Price Is ${myFavGames[Object.keys(myFavGames)[i]].price}`);
+    let game = Object.keys(myFavGames)[i];
+    console.log(`The Game Name Is ${game}`);
+    console.log(`The Publisher Is ${myFavGames[game].publisher}`);
+    console.log(`The Price Is ${myFavGames[game].price}`);
 
     // Check If Nested Object Has Property (bestThree)
     if (Object.values(myFavGames)[i].hasOwnProperty("bestThree")) {
         console.log("- Game Has Releases");
-        console.log(
-            `First => ${myFavGames[Object.keys(myFavGames)[i]].bestThree.one}`
-        );
-        console.log(
-            `Second => ${myFavGames[Object.keys(myFavGames)[i]].bestThree.two}`
-        );
-        console.log(
-            `Third => ${myFavGames[Object.keys(myFavGames)[i]].bestThree.three}`
-        );
+        console.log(`First => ${myFavGames[game].bestThree.one}`);
+        console.log(`Second => ${myFavGames[game].bestThree.two}`);
+        console.log(`Third => ${myFavGames[game].bestThree.three}`);
     }
     console.log("#".repeat(20));
 }
