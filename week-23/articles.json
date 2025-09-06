@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "title": "title 1",
+    "body": "Article body number 1",
+    "Category": "Category 1",
+    "author": "youssef"
+  },
+
+  {
+    "id": 2,
+    "title": "title 2",
+    "body": "Article body number 2",
+    "Category": "Category 2",
+    "author": "omar"
+  },
+
+  {
+    "id": 3,
+    "title": "title 3",
+    "body": "Article body number 3",
+    "Category": "Category 3",
+    "author": "Gamal"
+  },
+
+  {
+    "id": 4,
+    "title": "title 4",
+    "body": "Article body number 4",
+    "Category": "Category 4",
+    "author": "Jana"
+  },
+
+  {
+    "id": 5,
+    "title": "title 5",
+    "body": "Article body number 5",
+    "Category": "Category 5",
+    "author": "Ahmed"
+  }
+]
